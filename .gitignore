@@ -1,3 +1,6 @@
+vcard/*
+wifi/*
+
 *.gem
 *.rbc
 /.config
