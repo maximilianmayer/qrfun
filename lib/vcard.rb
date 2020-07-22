@@ -28,7 +28,8 @@ module QRfun
     end
 
 
-    def gen_qr()
+    # @return [Integer]
+    def gen_qr
       qr = RQRCode::QRCode.new(@vcard.to_s)
 
       png = qr.as_png(
